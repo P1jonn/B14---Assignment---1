@@ -187,3 +187,145 @@ header{
     margin:10px 0;
     font-size:24px;
 }
+
+.pricing{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.pricing p{
+    margin-bottom:40px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.price-card{
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    background:#ffffff;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    text-align:left;
+}
+
+.price-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.price-card h4{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.price-card ul{
+    margin-bottom:25px;
+    padding-left:20px;
+}
+
+.price-card li{
+    margin-bottom:10px;
+}
+
+.price-card button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+.featured{
+    background:#0f172a;
+    color:white;
+    transform:translateY(-15px);
+}
+
+
+.innovation{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.innovation h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.innovation > p{
+    margin-bottom:40px;
+}
+
+.innovation-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.innovation-card{
+    width:300px;
+    padding:30px;
+    background:#0f172a;
+    color:white;
+    border-radius:15px;
+    text-align:left;
+}
+
+.innovation-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.innovation-card p{
+    line-height:1.6;
+}
+
+
+.footer{
+    background:#0f172a;
+    color:white;
+    padding:40px 60px 20px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.social-links{
+    display:flex;
+    gap:25px;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer hr{
+    margin:30px 0 20px;
+    border:0;
+    border-top:1px solid #475569;
+}
+
+.copyright{
+    text-align:center;
+    font-size:14px;
+}
