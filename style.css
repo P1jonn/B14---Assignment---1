@@ -1,0 +1,58 @@
+header{
+    background-color:#0f172a;
+}
+
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 60px;
+
+}
+
+
+.logo{
+
+    color:white;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+}
+
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+}
+
+
+.register-btn{
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
